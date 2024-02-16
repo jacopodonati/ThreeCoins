@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EACA4B9C2B7F54D70073D6B7 /* Three_CoinsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACA4B9B2B7F54D70073D6B7 /* Three_CoinsApp.swift */; };
+		EACA4B9E2B7F54D70073D6B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACA4B9D2B7F54D70073D6B7 /* ContentView.swift */; };
+		EACA4BA02B7F54D70073D6B7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACA4B9F2B7F54D70073D6B7 /* Item.swift */; };
+		EACA4BA22B7F54D90073D6B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACA4BA12B7F54D90073D6B7 /* Assets.xcassets */; };
+		EACA4BA62B7F54D90073D6B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACA4BA52B7F54D90073D6B7 /* Preview Assets.xcassets */; };
+		EACA4BB12B7F54DA0073D6B7 /* Three_CoinsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACA4BB02B7F54DA0073D6B7 /* Three_CoinsTests.swift */; };
+		EACA4BBB2B7F54DA0073D6B7 /* Three_CoinsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACA4BBA2B7F54DA0073D6B7 /* Three_CoinsUITests.swift */; };
+		EACA4BBD2B7F54DA0073D6B7 /* Three_CoinsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACA4BBC2B7F54DA0073D6B7 /* Three_CoinsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EACA4BAD2B7F54DA0073D6B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EACA4B902B7F54D60073D6B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EACA4B972B7F54D60073D6B7;
+			remoteInfo = "Three Coins";
+		};
+		EACA4BB72B7F54DA0073D6B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EACA4B902B7F54D60073D6B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EACA4B972B7F54D60073D6B7;
+			remoteInfo = "Three Coins";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EACA4B982B7F54D70073D6B7 /* Three Coins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Three Coins.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACA4B9B2B7F54D70073D6B7 /* Three_CoinsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Three_CoinsApp.swift; sourceTree = "<group>"; };
+		EACA4B9D2B7F54D70073D6B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EACA4B9F2B7F54D70073D6B7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		EACA4BA12B7F54D90073D6B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EACA4BA32B7F54D90073D6B7 /* Three_Coins.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Three_Coins.entitlements; sourceTree = "<group>"; };
+		EACA4BA52B7F54D90073D6B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EACA4BA72B7F54D90073D6B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EACA4BAC2B7F54DA0073D6B7 /* Three CoinsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Three CoinsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACA4BB02B7F54DA0073D6B7 /* Three_CoinsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Three_CoinsTests.swift; sourceTree = "<group>"; };
+		EACA4BB62B7F54DA0073D6B7 /* Three CoinsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Three CoinsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACA4BBA2B7F54DA0073D6B7 /* Three_CoinsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Three_CoinsUITests.swift; sourceTree = "<group>"; };
+		EACA4BBC2B7F54DA0073D6B7 /* Three_CoinsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Three_CoinsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EACA4B952B7F54D60073D6B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACA4BA92B7F54DA0073D6B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACA4BB32B7F54DA0073D6B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EACA4B8F2B7F54D60073D6B7 = {
+			isa = PBXGroup;
+			children = (
+				EACA4B9A2B7F54D70073D6B7 /* Three Coins */,
+				EACA4BAF2B7F54DA0073D6B7 /* Three CoinsTests */,
+				EACA4BB92B7F54DA0073D6B7 /* Three CoinsUITests */,
+				EACA4B992B7F54D70073D6B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EACA4B992B7F54D70073D6B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EACA4B982B7F54D70073D6B7 /* Three Coins.app */,
+				EACA4BAC2B7F54DA0073D6B7 /* Three CoinsTests.xctest */,
+				EACA4BB62B7F54DA0073D6B7 /* Three CoinsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EACA4B9A2B7F54D70073D6B7 /* Three Coins */ = {
+			isa = PBXGroup;
+			children = (
+				EACA4B9B2B7F54D70073D6B7 /* Three_CoinsApp.swift */,
+				EACA4B9D2B7F54D70073D6B7 /* ContentView.swift */,
+				EACA4B9F2B7F54D70073D6B7 /* Item.swift */,
+				EACA4BA12B7F54D90073D6B7 /* Assets.xcassets */,
+				EACA4BA32B7F54D90073D6B7 /* Three_Coins.entitlements */,
+				EACA4BA72B7F54D90073D6B7 /* Info.plist */,
+				EACA4BA42B7F54D90073D6B7 /* Preview Content */,
+			);
+			path = "Three Coins";
+			sourceTree = "<group>";
+		};
+		EACA4BA42B7F54D90073D6B7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EACA4BA52B7F54D90073D6B7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EACA4BAF2B7F54DA0073D6B7 /* Three CoinsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EACA4BB02B7F54DA0073D6B7 /* Three_CoinsTests.swift */,
+			);
+			path = "Three CoinsTests";
+			sourceTree = "<group>";
+		};
+		EACA4BB92B7F54DA0073D6B7 /* Three CoinsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EACA4BBA2B7F54DA0073D6B7 /* Three_CoinsUITests.swift */,
+				EACA4BBC2B7F54DA0073D6B7 /* Three_CoinsUITestsLaunchTests.swift */,
+			);
+			path = "Three CoinsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EACA4B972B7F54D60073D6B7 /* Three Coins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EACA4BC02B7F54DA0073D6B7 /* Build configuration list for PBXNativeTarget "Three Coins" */;
+			buildPhases = (
+				EACA4B942B7F54D60073D6B7 /* Sources */,
+				EACA4B952B7F54D60073D6B7 /* Frameworks */,
+				EACA4B962B7F54D60073D6B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Three Coins";
+			productName = "Three Coins";
+			productReference = EACA4B982B7F54D70073D6B7 /* Three Coins.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EACA4BAB2B7F54DA0073D6B7 /* Three CoinsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EACA4BC32B7F54DA0073D6B7 /* Build configuration list for PBXNativeTarget "Three CoinsTests" */;
+			buildPhases = (
+				EACA4BA82B7F54DA0073D6B7 /* Sources */,
+				EACA4BA92B7F54DA0073D6B7 /* Frameworks */,
+				EACA4BAA2B7F54DA0073D6B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EACA4BAE2B7F54DA0073D6B7 /* PBXTargetDependency */,
+			);
+			name = "Three CoinsTests";
+			productName = "Three CoinsTests";
+			productReference = EACA4BAC2B7F54DA0073D6B7 /* Three CoinsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EACA4BB52B7F54DA0073D6B7 /* Three CoinsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EACA4BC62B7F54DA0073D6B7 /* Build configuration list for PBXNativeTarget "Three CoinsUITests" */;
+			buildPhases = (
+				EACA4BB22B7F54DA0073D6B7 /* Sources */,
+				EACA4BB32B7F54DA0073D6B7 /* Frameworks */,
+				EACA4BB42B7F54DA0073D6B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EACA4BB82B7F54DA0073D6B7 /* PBXTargetDependency */,
+			);
+			name = "Three CoinsUITests";
+			productName = "Three CoinsUITests";
+			productReference = EACA4BB62B7F54DA0073D6B7 /* Three CoinsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EACA4B902B7F54D60073D6B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					EACA4B972B7F54D60073D6B7 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					EACA4BAB2B7F54DA0073D6B7 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EACA4B972B7F54D60073D6B7;
+					};
+					EACA4BB52B7F54DA0073D6B7 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EACA4B972B7F54D60073D6B7;
+					};
+				};
+			};
+			buildConfigurationList = EACA4B932B7F54D60073D6B7 /* Build configuration list for PBXProject "Three Coins" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EACA4B8F2B7F54D60073D6B7;
+			productRefGroup = EACA4B992B7F54D70073D6B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EACA4B972B7F54D60073D6B7 /* Three Coins */,
+				EACA4BAB2B7F54DA0073D6B7 /* Three CoinsTests */,
+				EACA4BB52B7F54DA0073D6B7 /* Three CoinsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EACA4B962B7F54D60073D6B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACA4BA62B7F54D90073D6B7 /* Preview Assets.xcassets in Resources */,
+				EACA4BA22B7F54D90073D6B7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACA4BAA2B7F54DA0073D6B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACA4BB42B7F54DA0073D6B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EACA4B942B7F54D60073D6B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACA4B9E2B7F54D70073D6B7 /* ContentView.swift in Sources */,
+				EACA4BA02B7F54D70073D6B7 /* Item.swift in Sources */,
+				EACA4B9C2B7F54D70073D6B7 /* Three_CoinsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACA4BA82B7F54DA0073D6B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACA4BB12B7F54DA0073D6B7 /* Three_CoinsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACA4BB22B7F54DA0073D6B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACA4BBD2B7F54DA0073D6B7 /* Three_CoinsUITestsLaunchTests.swift in Sources */,
+				EACA4BBB2B7F54DA0073D6B7 /* Three_CoinsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EACA4BAE2B7F54DA0073D6B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EACA4B972B7F54D60073D6B7 /* Three Coins */;
+			targetProxy = EACA4BAD2B7F54DA0073D6B7 /* PBXContainerItemProxy */;
+		};
+		EACA4BB82B7F54DA0073D6B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EACA4B972B7F54D60073D6B7 /* Three Coins */;
+			targetProxy = EACA4BB72B7F54DA0073D6B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EACA4BBE2B7F54DA0073D6B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EACA4BBF2B7F54DA0073D6B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		EACA4BC12B7F54DA0073D6B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Three Coins/Three_Coins.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Three Coins/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Three Coins/Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "it.jacopodonati.Three-Coins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EACA4BC22B7F54DA0073D6B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Three Coins/Three_Coins.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Three Coins/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Three Coins/Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "it.jacopodonati.Three-Coins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EACA4BC42B7F54DA0073D6B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "it.jacopodonati.Three-CoinsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Three Coins.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Three Coins";
+			};
+			name = Debug;
+		};
+		EACA4BC52B7F54DA0073D6B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "it.jacopodonati.Three-CoinsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Three Coins.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Three Coins";
+			};
+			name = Release;
+		};
+		EACA4BC72B7F54DA0073D6B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "it.jacopodonati.Three-CoinsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Three Coins";
+			};
+			name = Debug;
+		};
+		EACA4BC82B7F54DA0073D6B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "it.jacopodonati.Three-CoinsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Three Coins";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EACA4B932B7F54D60073D6B7 /* Build configuration list for PBXProject "Three Coins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACA4BBE2B7F54DA0073D6B7 /* Debug */,
+				EACA4BBF2B7F54DA0073D6B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EACA4BC02B7F54DA0073D6B7 /* Build configuration list for PBXNativeTarget "Three Coins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACA4BC12B7F54DA0073D6B7 /* Debug */,
+				EACA4BC22B7F54DA0073D6B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EACA4BC32B7F54DA0073D6B7 /* Build configuration list for PBXNativeTarget "Three CoinsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACA4BC42B7F54DA0073D6B7 /* Debug */,
+				EACA4BC52B7F54DA0073D6B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EACA4BC62B7F54DA0073D6B7 /* Build configuration list for PBXNativeTarget "Three CoinsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACA4BC72B7F54DA0073D6B7 /* Debug */,
+				EACA4BC82B7F54DA0073D6B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EACA4B902B7F54D60073D6B7 /* Project object */;
+}
