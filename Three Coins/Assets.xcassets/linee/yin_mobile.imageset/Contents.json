@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "yin_mobile.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
